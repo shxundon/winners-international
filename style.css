@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(WINNERS.png);
+    background-position: auto;
+    background-size: auto;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;    
+}
+
+.icon{
+    width: auto;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #f5f1f1;
+    font: 45px;
+    font-display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: auto;
+    float: left;
+    height: 70px;
+}
+
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position-area: inherit;
+}
+
+.info{
+    position: relative;
+    list-style-position: inside;
+    align-content: center;
+    list-style-position: initial;
+
+}
+
+.content2{
+width: 1000px;
+height: fit-content;
+margin: auto;
+color: #fff;
+
+}
+
+par{
+    width: 1000px;
+    height: fit-content;
+    margin: auto;
+    color: #fff;
+}
+
+@media  screen and (max-width:1200px) {
+    /*normal screen*/
+
+    .navbar{
+        width:100%;
+        height: 100px;
+    }   
+    ul{
+        margin-left: 30px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+        font-size: 1.6vw;
+    }
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1, .content span{
+        font-size: 4.5vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+    .content a{
+        font-size: 1.6vw;
+    } 
+}
+
